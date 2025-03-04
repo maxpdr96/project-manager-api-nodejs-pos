@@ -3,10 +3,9 @@ import { ITask } from '../interfaces/task.interface';
 import { IUser } from '../interfaces/user.interface';
 
 export class Tasks implements ITask {
-    id: number;
-    name: string;
-    status: 'pending' | 'completed';
-    project: IProject;
-    user: IUser;
-
+  id: number;
+  name: string;
+  status: 'pending' | 'completed';
+  project: IProject;
+  user: IUser;
 }

@@ -4,7 +4,6 @@ import { TasksController } from './tasks/tasks.controller';
 import { UsersController } from './users/users.controller';
 
 @Module({
-    controllers: [ProjectsController, TasksController, UsersController],
+  controllers: [ProjectsController, TasksController, UsersController],
 })
-
 export class ControllersModule {}
